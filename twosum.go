@@ -2,7 +2,7 @@ package main
 
 import "log"
 
-func twoSum(nums []int, target int) interface{} {
+func twoSum(nums []int, target int) bool {
 	m := make(map[int]int)
 	for index, value := range nums {
 		_, ok := m[target - value]
