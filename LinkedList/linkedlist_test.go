@@ -4,9 +4,12 @@ import "testing"
 
 func TestLinkedList(t *testing.T) {
 	l := &Node{}
-	l.insertNode(1)
-	l.insertNode(2)
-	l.insertNode(3)
-	l.insertNode(4)
-	l.printList()
+	l.InsertNode(1)
+	l.InsertNode(2)
+	l.InsertNode(3)
+	l.InsertNode(4)
+	l.PrintList()
+	l.PrintHead()
+	l = Reverse(l)
+	l.PrintList()
 }
