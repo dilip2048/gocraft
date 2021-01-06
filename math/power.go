@@ -33,7 +33,6 @@ func main() {
 	subLogger := log.With().Str("module", "nexmo").Logger()
 
 	auth := nexmo.NewAuthSet()
-	auth.SetAPISecret("82b7a4c8", "62U2DdMk6rKtNxBg")
 
 	client := nexmo.NewClient(http.DefaultClient, auth)
 
