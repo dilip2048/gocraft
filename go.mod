@@ -1,7 +1,12 @@
 module github.com/conversenow/balrog
 
 require (
-	github.com/rs/zerolog v1.17.2
+	github.com/conversenow/utils v0.0.8
+	github.com/gorilla/mux v1.8.0
+	github.com/jinzhu/gorm v1.9.16
+	github.com/nexmo-community/nexmo-go v0.8.1
+	github.com/rs/cors v1.7.0
+	github.com/rs/zerolog v1.20.0
 	k8s.io/utils v0.0.0-20191114184206-e782cd3c129f
 )
 
